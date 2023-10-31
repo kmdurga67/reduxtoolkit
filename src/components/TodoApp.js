@@ -34,8 +34,8 @@ const TodoApp = () => {
         <p style={{ color: "red" }}>Kindly add a non-empty todo first!!</p>
       )}
       <ul className="todo-list">
-        {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
+        {todos.map((todo) => (
+          <li key={todo.id}>{todo.text}</li>
         ))}
       </ul>
     </div>

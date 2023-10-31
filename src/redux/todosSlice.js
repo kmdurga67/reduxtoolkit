@@ -1,11 +1,20 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, nanoid } from "@reduxjs/toolkit";
+
+const initialState = {
+  todos: [{ id: 1, text: "Hello World!" }],
+};
 
 const todosSlice = createSlice({
-  name: "todos",
-  initialState: [],
+  name: "todo",
+  initialState,
   reducers: {
     addTodo: (state, action) => {
-      state.push(action.payload);
+      const todo = {
+        id: nanoid(),
+        text: action.payload,
+      }
+      state.todos.push(todo);
+      console.log(state.todos);
     },
   },
 });
