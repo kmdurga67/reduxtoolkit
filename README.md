@@ -3,16 +3,11 @@
 A simple Todo list application built using Redux Toolkit and React.
 
 ## Table of Contents
-- [Demo](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 
-## Demo
-
-You can check out a live demo of the application [here](#).
 
 ## Features
 
@@ -34,7 +29,7 @@ Before running the application, make sure you have the following software instal
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/redux-toolkit-todo-app.git
+   git clone https://github.com/kmdurga67/reduxtoolkit.git
 
 2. Change your directory to the project folder:
 
